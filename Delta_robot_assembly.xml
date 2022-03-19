@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/12/21||09:08:01" using="Simscape Multibody Link Version 7.2" from="SolidWorks 29.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Delta_robot_assembly" uid="Delta_robot_assembly" version="228">
+<AssemblyFile name="Delta_robot_assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="arm_assembly(4)-1" uid="arm_assembly(4)-1" entityUid="arm_assembly(4)">
+<Transform>
+<Rotation>0.97769938553259295 0.20904793948399253 -0.020071634878282771 -0.20174909005110109 0.9084029039968935 -0.36619867377362714 -0.05831994678275014 0.36208165240385726 0.93032019262173893</Rotation>
+<Translation>-0.21225813687879191 0.09234590099154294 -0.14598177940791457</Translation>
+</Transform>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783456 -0.020895716781097654 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.81333427160032645 0.58179666778039085 0 0 0 1 0.58179666778039107 0.81333427160032634 0</Rotation>
+<Translation>0.27628757347783445 -0.034162215942519475 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.65354254914565268 -0.75688977827435489 1.1657341758564144e-15 1.5820678100908481e-15 -1.3877787807814457e-16 -1 0.75688977827435477 0.65354254914565268 1.1102230246251565e-15</Rotation>
+<Translation>0.27628757347783423 0.69237078238032401 0.3581053043152107</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part1^Delta_robot_assembly-1" uid="Part1^Delta_robot_assembly-1" grounded="true" entityUid="Part1^Delta_robot_assembly*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="arm_assembly(6)-1" uid="arm_assembly(6)-1" entityUid="arm_assembly(6)">
+<Transform>
+<Rotation>0.42715043857229745 0.20904793948399489 -0.87968259152093586 0.2482499435278398 0.90840290399689283 0.33641660117841421 0.86943341801768703 -0.36208165240385753 0.33612855967110844</Rotation>
+<Translation>0.24768293897885249 -0.28359349691656915 -0.32524511512520815</Translation>
+</Transform>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.75932002936129284 0.65071736799532665 0 0 0 1 0.65071736799532687 0.75932002936129284 0</Rotation>
+<Translation>0.2762875734778345 -0.034162215942519739 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783456 -0.020895716781097723 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.58470852411997942 -0.81124345410082355 0 -2.2204460492503131e-16 0 -1 0.81124345410082377 0.58470852411997931 -2.0816681711721685e-16</Rotation>
+<Translation>0.27628757347783439 0.69237078238032368 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Part2^Delta_robot_assembly-1" uid="Part2^Delta_robot_assembly-1" grounded="true" entityUid="Part2^Delta_robot_assembly*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_end_effector-1" uid="delta_end_effector-1" entityUid="delta_end_effector*:*Default">
+<Transform>
+<Rotation>0.86602540378443771 -3.8000875471574046e-15 0.50000000000000155 4.7430331580045388e-15 0.99999999999999989 -6.2538909479243872e-16 -0.50000000000000167 2.9155196975804158e-15 0.8660254037844376</Rotation>
+<Translation>0.044698754173596242 -0.12556560923072133 0.090697407038051694</Translation>
+</Transform>
+</Instance>
+<Instance name="arm_assembly(5)-1" uid="arm_assembly(5)-1" entityUid="arm_assembly(5)">
+<Transform>
+<Rotation>0.611825532497832 -0.41809587896798345 0.67146508008513284 0.28159501985212787 0.90840290399689361 0.30904434763394462 -0.73917099684594234 3.161163327141898e-16 0.67351780779855852</Rotation>
+<Translation>-0.41572970719168606 -0.28300417795630495 0.10123130862484599</Translation>
+</Transform>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783472 -0.020895716781097667 0.35810530431521109</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.63326156990554472 -0.77393784251757902 -1.2701266322191612e-15 0 1.6548756624752463e-15 -1 0.77393784251757902 0.63326156990554461 1.0609780048892677e-15</Rotation>
+<Translation>0.27628757347783467 0.69237078238032357 0.35810530431521109</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.79915619150632033 0.60112343289636716 1.5677437209845562e-15 6.0615277381887149e-16 -1.8021805830604509e-15 0.99999999999999978 0.60112343289636727 0.79915619150632033 1.0758511349075744e-15</Rotation>
+<Translation>0.27628757347783456 -0.034162215942519378 0.35810530431521104</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="arm_assembly-1" uid="arm_assembly-1" entityUid="arm_assembly">
+<Transform>
+<Rotation>0.61182553249781402 -0.41809587896798378 0.67146508008514894 0.28159501985211877 0.90840290399689327 0.30904434763395333 -0.73917099684596077 -9.6016944395316273e-16 0.67351780779853809</Rotation>
+<Translation>-0.41572970719168684 -0.28300417795630567 0.031231308624859164</Translation>
+</Transform>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.79915619150626638 0.60112343289643899 -1.4146598837416274e-15 -1.5457318757473678e-15 2.9840574333495758e-16 1 0.60112343289643899 0.79915619150626649 6.9070285411954844e-16</Rotation>
+<Translation>0.2762875734778345 -0.034162215942518864 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.63326156990593541 -0.77393784251725917 1.5686187753332504e-16 6.1507936519873343e-16 3.0059810246839418e-16 -0.99999999999999989 0.77393784251725928 0.63326156990593541 6.663904231586737e-16</Rotation>
+<Translation>0.27628757347783461 0.69237078238032368 0.35810530431521076</Translation>
+</Transform>
+</Instance>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783472 -0.020895716781097681 0.35810530431521093</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="arm_assembly(3)-1" uid="arm_assembly(3)-1" entityUid="arm_assembly(3)">
+<Transform>
+<Rotation>0.42715043857227591 0.20904793948399522 -0.87968259152094641 0.24824994352784582 0.9084029039968935 0.33641660117840749 0.86943341801769614 -0.3620816524038552 0.33612855967108785</Rotation>
+<Translation>0.30830471724377234 -0.28359349691656899 -0.29024511512520412</Translation>
+</Transform>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783461 -0.020895716781097765 0.35810530431521104</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.75932002934968534 0.65071736800887159 -1.4988010832439613e-15 -6.6613381477509392e-16 1.4988010832439613e-15 0.99999999999999989 0.65071736800887159 0.75932002934968534 -8.1878948066105295e-16</Rotation>
+<Translation>0.27628757347783472 -0.034162215942519392 0.35810530431521104</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.58470852412978047 -0.81124345409375964 1.3372279519233685e-15 1.0547118733938985e-15 -8.8817841970012494e-16 -0.99999999999999989 0.81124345409375964 0.58470852412978036 3.3630261029898557e-16</Rotation>
+<Translation>0.2762875734778345 0.69237078238032368 0.35810530431521082</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="arm_assembly(2)-1" uid="arm_assembly(2)-1" entityUid="arm_assembly(2)">
+<Transform>
+<Rotation>0.9774721111670428 0.2090479394839927 -0.029107230856630778 -0.20512508889070466 0.90840290399689361 -0.36431835243038635 -0.049718907854303829 0.3620816524038572 0.9308194815291887</Rotation>
+<Translation>-0.14833787068341409 0.092605294472169114 -0.18353693758898723</Translation>
+</Transform>
+<Instance name="arm_rod-1" uid="arm_rod-1" grounded="true" entityUid="arm_rod*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27628757347783467 -0.020895716781097681 0.35810530431521104</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint-1" uid="delta_arm_spherical_joint-1" entityUid="delta_arm_spherical_joint*:*Default">
+<Transform>
+<Rotation>0.65358814450658886 -0.75685040619691446 0 -7.4940054162198066e-16 -6.3837823915946501e-16 -1 0.75685040619691435 0.65358814450658886 -9.8442055315640192e-16</Rotation>
+<Translation>0.27628757347783456 0.69237078238032401 0.35810530431521082</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_arm_spherical_joint(2)-1" uid="delta_arm_spherical_joint(2)-1" entityUid="delta_arm_spherical_joint(2)*:*Default">
+<Transform>
+<Rotation>-0.81324935539213949 0.58191535978548425 -1.7786410397785436e-16 1.3877787807814462e-16 4.9960036108132034e-16 1 0.58191535978548425 0.81324935539213949 -4.8705665045517351e-16</Rotation>
+<Translation>0.27628757347783456 -0.034162215942519253 0.35810530431521104</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="delta_main-1" uid="delta_main-1" grounded="true" entityUid="delta_main*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.051915886576310744 0.5844190762953192 0.10319784704450513</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_link1-1" uid="delta_link1-1" entityUid="delta_link1*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.095712079416204188 0.53441907629531915 0.1031978470445051</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_link1 (2)-1" uid="delta_link1 (2)-1" entityUid="delta_link1 (2)*:*Default">
+<Transform>
+<Rotation>0 0.50000000000000944 -0.86602540378443338 1 -2.2204460492503131e-16 -1.6653345369377348e-16 0 -0.86602540378443327 -0.50000000000000921</Rotation>
+<Translation>0.12572986957256871 0.53441907629531893 -0.024651721814037963</Translation>
+</Transform>
+</Instance>
+<Instance name="delta_link1(3)-1" uid="delta_link1(3)-1" entityUid="delta_link1(3)*:*Default">
+<Transform>
+<Rotation>0 0.50000000000000322 0.86602540378443682 1 -2.7755575615628914e-16 0 0 0.86602540378443704 -0.50000000000000311</Rotation>
+<Translation>0.12572986957256826 0.53441907629531882 0.23104741590304789</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.13876588828009045 -0.050000000000000044 -0.090349568858542409</Position>
+<Axis>-0.86602540378443349 0 -0.50000000000000921</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_link1 (2)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999983</Position>
+<Axis>1.1695707193544752e-16 2.2204460492503131e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.13876588828009045 -0.050000000000000044 -0.090349568858542409</Position>
+<Axis>-0.86602540378443338 0 -0.5000000000000091</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_link1 (2)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999983</Position>
+<Axis>-1.1695707193544752e-16 -2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.0088620777124247332 -0.050000000000000044 0.16534956885854313</Position>
+<Axis>0.86602540378443704 0 -0.50000000000000311</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.0088620777124247332 -0.050000000000000044 0.16534956885854313</Position>
+<Axis>0.86602540378443704 0 -0.50000000000000311</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.0088620777124247332 -0.050000000000000044 0.16534956885854313</Position>
+<Axis>0.86602540378443704 0 -0.50000000000000311</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>0.0088620777124247332 -0.050000000000000044 0.16534956885854313</Position>
+<Axis>0.86602540378443704 0 -0.50000000000000311</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>-0.14762796599251488 -0.050000000000000044 -0.075000000000000011</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_link1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999969</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_main-1</Uid>
+</InstancePath>
+<Position>-0.14762796599251488 -0.050000000000000044 -0.075000000000000011</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_link1-1</Uid>
+</InstancePath>
+<Position>0 0 -0.074999999999999969</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000001 0.034999999999999989</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(5)-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000001 -0.035000000000000003</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1 (2)-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000004 0.034999999999999948</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(6)-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1 (2)-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000009 -0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(3)-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.20000000000000018 0.034999999999999976</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(2)-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_link1(3)-1</Uid>
+</InstancePath>
+<Position>0 0.20000000000000007 -0.034999999999999976</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(4)-1</Uid>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(6)-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>0.020490381056766625 0 -0.037810381056765902</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(3)-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>0.055490381056766541 0 0.022811397208143888</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(2)-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>0.035000000000000017 0 0.058301778264910509</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(4)-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>-0.034999999999999989 0 0.058301778264910536</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly(5)-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>-0.055490381056766513 0 0.02281139720814393</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>arm_assembly-1</Uid>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>delta_end_effector-1</Uid>
+</InstancePath>
+<Position>-0.020490381056766628 0 -0.037810381056765888</Position>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="arm_assembly(4)" uid="arm_assembly(4)" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly(4).SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="arm_assembly(6)" uid="arm_assembly(6)" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly(6).SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="arm_assembly(5)" uid="arm_assembly(5)" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly(5).SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="arm_assembly" uid="arm_assembly" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="arm_assembly(3)" uid="arm_assembly(3)" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly(3).SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+<Assembly name="arm_assembly(2)" uid="arm_assembly(2)" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arm_assembly(2).SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421641</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 -0.0080000000000000071 0.013266499161421596</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arm_rod-1</Uid>
+</InstancePath>
+<Position>0 0.69999999999999996 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>delta_arm_spherical_joint(2)-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999996</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Part1^Delta_robot_assembly" uid="Part1^Delta_robot_assembly*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Delta_robot_assembly.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>3.4937984909081945e+228 1.3542542088398855e+166 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part1-Delta_robot_assembly_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2^Delta_robot_assembly" uid="Part2^Delta_robot_assembly*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Delta_robot_assembly.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0</Mass>
+<CenterOfMass>3.4937984909081945e+228 1.3542542088398855e+166 0</CenterOfMass>
+<Inertia>0 0 0 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part2-Delta_robot_assembly_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="arm_rod" uid="arm_rod*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="arm_rod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.054977871437821388</Mass>
+<CenterOfMass>0 0.34999999999999992 0</CenterOfMass>
+<Inertia>0.0022452733620741926 6.8722339297276737e-07 0.0022452733620741926 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="arm_rod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.5" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_arm_spherical_joint(2)" uid="delta_arm_spherical_joint(2)*:*Default" version="277">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_arm_spherical_joint(2).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0080571064261353211</Mass>
+<CenterOfMass>-1.202211736475969e-08 0 0.0024608662998825857</CenterOfMass>
+<Inertia>1.1397090404748817e-06 1.5257918257012971e-06 7.4902106102121034e-07 0 2.8788209401671297e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="delta_arm_spherical_joint(2)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_arm_spherical_joint" uid="delta_arm_spherical_joint*:*Default" version="277">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_arm_spherical_joint.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0080571064261353194</Mass>
+<CenterOfMass>-1.2022117364759692e-08 0 0.0024608662998825861</CenterOfMass>
+<Inertia>1.1397090404748817e-06 1.5257918257012971e-06 7.4902106102121034e-07 0 2.8788209401671297e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="delta_arm_spherical_joint_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_end_effector" uid="delta_end_effector*:*Default" version="428">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_end_effector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.089268271698023843</Mass>
+<CenterOfMass>0 0 0.014434277970271418</CenterOfMass>
+<Inertia>7.9203490605987022e-05 0.00015326902827308655 7.9203523368789029e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="delta_end_effector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="1" a="1"/>
+<Diffuse r="0" g="0" b="1" a="1"/>
+<Specular r="0" g="0" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_link1 (2)" uid="delta_link1 (2)*:*Default" version="283">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_link1 (2).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.42264620762201288</Mass>
+<CenterOfMass>0.0016943144519466866 0.094285181759923273 -0.0077673176349356832</CenterOfMass>
+<Inertia>0.0028402849060119219 0.00025829779802695723 0.002704860770513972 -0.00030953859260432503 -5.5625914228857588e-06 -7.5691079301419222e-05</Inertia>
+</MassProperties>
+<GeometryFile name="delta_link1 (2)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_link1(3)" uid="delta_link1(3)*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_link1(3).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.42264620762201288</Mass>
+<CenterOfMass>0.0016943144519466866 0.094285181759923273 -0.007767317634935684</CenterOfMass>
+<Inertia>0.0028402849060119215 0.00025829779802695728 0.0027048607705139715 -0.00030953859260432503 -5.5625914228857554e-06 -7.5691079301419222e-05</Inertia>
+</MassProperties>
+<GeometryFile name="delta_link1(3)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_link1" uid="delta_link1*:*Default" version="282">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_link1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.42264620762201288</Mass>
+<CenterOfMass>0.0016943144519466857 0.094285181759923273 -0.0077673176349356832</CenterOfMass>
+<Inertia>0.0028402849060119219 0.00025829779802695723 0.002704860770513972 -0.00030953859260432508 -5.5625914228857554e-06 -7.5691079301419222e-05</Inertia>
+</MassProperties>
+<GeometryFile name="delta_link1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="delta_main" uid="delta_main*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="delta_main.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>19.477884717293023</Mass>
+<CenterOfMass>0 0.014516095031625218 0</CenterOfMass>
+<Inertia>0.24227439985851934 0.36262841823257469 0.24227439985851934 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="delta_main_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Diffuse r="0.90980392156862744" g="0.44313725490196076" b="0.031372549019607843" a="1"/>
+<Specular r="0.45490196078431372" g="0.22156862745098038" b="0.015686274509803921" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
